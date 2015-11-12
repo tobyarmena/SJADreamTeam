@@ -622,6 +622,7 @@
       <room>rooms\room_0_7</room>
       <room>rooms\room_0_8</room>
       <room>rooms\room_0_shop</room>
+      <room>rooms\room_0_shop2</room>
       <room>rooms\room_0_10</room>
       <room>rooms\room_0_11</room>
       <room>rooms\room_0_12</room>
@@ -629,6 +630,15 @@
       <room>rooms\room_0_14</room>
       <room>rooms\room_0_15</room>
       <room>rooms\room_0_16</room>
+      <room>rooms\room_0_17</room>
+      <room>rooms\room_0_18</room>
+      <room>rooms\room_0_19</room>
+      <room>rooms\room_0_21</room>
+      <room>rooms\room_0_22</room>
+      <room>rooms\room_0_23</room>
+      <room>rooms\room_0_24</room>
+      <room>rooms\room_0_25</room>
+      <room>rooms\room_0_26</room>
     </rooms>
     <rooms name="Dungeon 1">
       <room>rooms\room_start_1</room>

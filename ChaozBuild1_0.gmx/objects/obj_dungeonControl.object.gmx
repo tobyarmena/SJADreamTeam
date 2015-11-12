@@ -74,7 +74,75 @@ global.room_value[0,13]=room_0_13//start left and right
 global.room_value[0,14]=room_0_14//top and bottom
 global.room_value[0,15]=room_0_15//top and bottom
 global.room_value[0,16]=room_0_16//left and right
+global.room_value[0,17]=room_0_17//empty
+global.room_value[0,18]=room_0_18//empty
+global.room_value[0,19]=room_0_19//empty
 global.room_value[0,20]=room_boss_0//BOSS1
+global.room_value[0,21]=room_0_21//empty
+global.room_value[0,22]=room_0_22//empty
+global.room_value[0,23]=room_0_23//empty
+global.room_value[0,24]=room_0_24//empty
+global.room_value[0,25]=room_0_25//empty
+global.room_value[0,26]=room_0_26//empty
+global.room_value[0,27]=room_0_shop2// small shop
+global.room_value[0,28]=
+global.room_value[0,29]=
+global.room_value[0,30]=
+global.room_value[0,31]=
+global.room_value[0,32]=
+global.room_value[0,33]=
+global.room_value[0,34]=
+global.room_value[0,35]=
+global.room_value[0,36]=
+global.room_value[0,37]=
+global.room_value[0,38]=
+global.room_value[0,39]=
+global.room_value[0,40]=
+global.room_value[0,41]=
+global.room_value[0,42]=
+global.room_value[0,43]=
+global.room_value[0,44]=
+global.room_value[0,45]=
+global.room_value[0,46]=
+global.room_value[0,47]=
+global.room_value[0,48]=
+global.room_value[0,49]=
+global.room_value[0,50]=
+global.room_value[0,51]=
+global.room_value[0,52]=
+global.room_value[0,53]=
+global.room_value[0,54]=
+global.room_value[0,55]=
+global.room_value[0,56]=
+global.room_value[0,57]=
+global.room_value[0,58]=
+global.room_value[0,59]=
+global.room_value[0,60]=
+global.room_value[0,61]=
+global.room_value[0,62]=
+global.room_value[0,63]=
+global.room_value[0,64]=
+global.room_value[0,65]=
+global.room_value[0,66]=
+global.room_value[0,67]=
+global.room_value[0,68]=
+global.room_value[0,69]=
+global.room_value[0,70]=
+global.room_value[0,71]=
+global.room_value[0,72]=
+global.room_value[0,73]=
+global.room_value[0,74]=
+global.room_value[0,75]=
+global.room_value[0,76]=
+global.room_value[0,77]=
+global.room_value[0,78]=
+global.room_value[0,79]=
+global.room_value[0,80]=
+
+
+
+
+
 
 
 
