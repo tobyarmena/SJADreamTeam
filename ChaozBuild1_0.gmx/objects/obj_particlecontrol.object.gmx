@@ -288,10 +288,20 @@ global.pulse4_pt = part_type_create();
 part_type_sprite(global.pulse4_pt,spr_electric_pt,true,true,false)
 part_type_alpha2(global.pulse4_pt,1,0)
 part_type_orientation(global.pulse4_pt,0,360,1,1,0)
-//part_type_size(global.pulse4_pt,4,6,0,0)
-//part_type_direction(global.pulse4_pt,0,360,0,0)
-//part_type_speed(global.pulse4_pt,2,4,0,0)
 part_type_life(global.pulse4_pt,20,25)
+
+//heal particle
+global.heal_sys = part_system_create()
+global.heal_pt = part_type_create()
+
+part_system_depth(global.heal_sys,-20)
+part_type_sprite(global.heal_pt,spr_heal_pt,false,false,false)
+part_type_direction(global.heal_pt,0,360,0,0)
+part_type_life(global.heal_pt,20,30)
+part_type_speed(global.heal_pt,2,3,-0.01,0)
+part_type_alpha2(global.heal_pt,0.7,0)
+part_type_size(global.heal_pt,0.5,1.5,0,0)
+
 
 
 

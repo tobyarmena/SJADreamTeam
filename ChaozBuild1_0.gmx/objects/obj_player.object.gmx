@@ -250,17 +250,6 @@ else
 pushblock = instance_nearest(x,y,obj_pushblock)
 if distance_to_object(pushblock)&lt;3 &amp;&amp; keyboard_check(vk_shift)
     {
-    /*
-    pushdir = point_direction(obj_player.x,obj_player.y,pushblock.x+sprite_width/2,pushblock.y+sprite_width/2)
-    if pushdir &lt; 45 || pushdir &gt; 315
-        pushdir = 0
-    if pushdir &gt;= 45 &amp;&amp; pushdir&lt; 135
-        pushdir = 90
-    if pushdir &gt;=135 &amp;&amp; pushdir &lt; 225
-        pushdir = 180
-    if pushdir &gt;=225 &amp;&amp; pushdir&lt;= 315
-        pushdir = 270
-    */
     if x&lt;pushblock.x
         {
         pushdir = 0

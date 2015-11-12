@@ -118,6 +118,17 @@ if hp &lt;= 0
     {
     instance_destroy();
     scr_droporbs(value,x,y,0,360)
+    hpdropchance = random(100)
+    hpdropnumber = choose(1,1,1,1,1,1,1,2,2,2,3,3,4)
+    if hpdropchance &lt; 15
+        {
+        repeat(hpdropnumber)
+            {
+            hporb = instance_create(x,y,obj_healthorb)
+            with(hporb)
+                scr_applyimpulse(random(360),8000)
+            }
+        }
     }
 
 if distance_to_object(obj_gasCan) &lt; 300 

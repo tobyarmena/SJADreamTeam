@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Setting the sprite to the correct item in use
+            <string>if global.action != 0
+{
+
+//Setting the sprite to the correct item in use
 sprite_index = global.inventory[25,2]
 
 //if there is no set sprite, set sprite to default
@@ -41,6 +44,10 @@ if global.inventory[25,2] == spr_empty
 
 //Perform effect of the item by calling it's script
 script_execute(global.inventory[25,5])
+
+}
+else
+    depth = 1
 
 </string>
           </argument>

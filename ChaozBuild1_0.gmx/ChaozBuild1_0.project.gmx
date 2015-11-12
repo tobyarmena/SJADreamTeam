@@ -201,6 +201,7 @@
     <sprite>sprites\spr_barrel</sprite>
     <sprite>sprites\spr_explo</sprite>
     <sprite>sprites\spr_dreamorb</sprite>
+    <sprite>sprites\spr_healthorb</sprite>
     <sprite>sprites\sprite117</sprite>
     <sprite>sprites\spr_water_pt</sprite>
     <sprite>sprites\spr_killspree_core_pu</sprite>
@@ -226,6 +227,7 @@
     <sprite>sprites\spr_dollcorpse1</sprite>
     <sprite>sprites\spr_floorhole</sprite>
     <sprite>sprites\spr_skullcorpse</sprite>
+    <sprite>sprites\spr_heal_pt</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -593,6 +595,7 @@
     </objects>
     <object>objects\obj_melee</object>
     <object>objects\obj_dreamorb</object>
+    <object>objects\obj_healthorb</object>
     <object>objects\obj_lightcontrol</object>
     <object>objects\obj_damagescreen</object>
     <object>objects\obj_parent_playerwall</object>
