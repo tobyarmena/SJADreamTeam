@@ -151,6 +151,7 @@
       <sprite>sprites\spr_doll</sprite>
       <sprite>sprites\spr_hive</sprite>
       <sprite>sprites\spr_spadeclown_mask</sprite>
+      <sprite>sprites\sprite192</sprite>
     </sprites>
     <sprites name="Room">
       <sprites name="doors">

@@ -42,7 +42,7 @@ stamina = 60;
 value=3;
 change=1
 increase=0
-image_speed = 0.1
+image_speed = 0.3
 </string>
           </argument>
         </arguments>
@@ -234,7 +234,7 @@ with(obj_player)
   <PhysicsObject>-1</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
   <PhysicsObjectShape>0</PhysicsObjectShape>
-  <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
+  <PhysicsObjectDensity>0.200000002980232</PhysicsObjectDensity>
   <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
   <PhysicsObjectLinearDamping>10</PhysicsObjectLinearDamping>
@@ -243,7 +243,7 @@ with(obj_player)
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>32,32</point>
-    <point>34,32</point>
+    <point>48,64</point>
+    <point>54,-60</point>
   </PhysicsShapePoints>
 </object>

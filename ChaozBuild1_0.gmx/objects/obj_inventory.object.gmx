@@ -286,7 +286,7 @@ global.items[23,4] = spr_needle_pu
 global.items[23,5] = scr_needle
 
 //BLunder           
-global.items[24,0] = "Blunder"  
+global.items[24,0] = "The Super Special Secret Gun"  
 global.items[24,1] = 1         
 global.items[24,2] = spr_blunder_arm
 global.items[24,3] = ""           
