@@ -172,6 +172,11 @@
     <sprites name="Dungeon">
       <sprite>sprites\spr_spike</sprite>
       <sprite>sprites\spr_chestcover</sprite>
+      <sprite>sprites\spr_chestbase</sprite>
+      <sprite>sprites\spr_chestcover_GOLD</sprite>
+      <sprite>sprites\spr_chestbase_GOLD</sprite>
+      <sprite>sprites\spr_chestcover_IRON</sprite>
+      <sprite>sprites\spr_chestbase_IRON</sprite>
       <sprite>sprites\spr_turret</sprite>
       <sprite>sprites\spr_turret_left</sprite>
       <sprite>sprites\spr_turret_up</sprite>
@@ -181,7 +186,6 @@
     <sprite>sprites\spr_empty</sprite>
     <sprite>sprites\spr_cursor</sprite>
     <sprite>sprites\spr_mouse</sprite>
-    <sprite>sprites\spr_chestbase</sprite>
     <sprite>sprites\spr_randchestspawn</sprite>
     <sprite>sprites\spr_menu</sprite>
     <sprite>sprites\spr_resume</sprite>
@@ -562,6 +566,10 @@
       <objects name="Chest">
         <object>objects\obj_chest_base</object>
         <object>objects\obj_chest</object>
+        <object>objects\obj_chestbase_IRON</object>
+        <object>objects\obj_chest_IRON</object>
+        <object>objects\obj_chest_GOLD</object>
+        <object>objects\obj_chestbase_GOLD</object>
         <object>objects\obj_randomchestspawn</object>
         <object>objects\obj_parent_chest</object>
       </objects>
