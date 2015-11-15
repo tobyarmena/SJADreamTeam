@@ -151,7 +151,7 @@
       <sprite>sprites\spr_doll</sprite>
       <sprite>sprites\spr_hive</sprite>
       <sprite>sprites\spr_spadeclown_mask</sprite>
-      <sprite>sprites\sprite192</sprite>
+      <sprite>sprites\spr_shadow</sprite>
     </sprites>
     <sprites name="Room">
       <sprites name="doors">
@@ -493,6 +493,13 @@
           <object>objects\obj_devideboss_s</object>
           <object>objects\obj_parent_devide</object>
         </objects>
+        <objects name="Beetle">
+          <object>objects\obj_beetlemom</object>
+          <object>objects\obj_beetle</object>
+        </objects>
+        <objects name="Shadow">
+          <object>objects\obj_shadow</object>
+        </objects>
         <object>objects\obj_vanishboss</object>
       </objects>
       <objects name="Controls">
@@ -525,9 +532,7 @@
       <object>objects\obj_zombiet</object>
       <object>objects\obj_zombieb</object>
       <object>objects\obj_bull</object>
-      <object>objects\obj_beetlemom</object>
       <object>objects\obj_beetlemom2</object>
-      <object>objects\obj_beetle</object>
       <object>objects\obj_enemy_sproj</object>
       <object>objects\obj_weeping</object>
       <object>objects\obj_enemyranged3</object>
