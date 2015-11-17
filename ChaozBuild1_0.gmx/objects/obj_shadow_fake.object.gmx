@@ -141,7 +141,8 @@ attacked = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0.2;
+            <string>//colliude
+image_speed = 0.2;
 </string>
           </argument>
         </arguments>
