@@ -164,6 +164,7 @@ draw_set_valign(fa_center)
 draw_text(startx+maxlives*3,starty+8,lives)
 draw_set_alpha(1)
 
+draw_sprite(spr_health,0,startx,starty-20)
 }
 </string>
           </argument>

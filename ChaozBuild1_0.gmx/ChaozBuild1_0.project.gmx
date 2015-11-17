@@ -235,6 +235,7 @@
     <sprite>sprites\spr_floorhole</sprite>
     <sprite>sprites\spr_skullcorpse</sprite>
     <sprite>sprites\spr_heal_pt</sprite>
+    <sprite>sprites\spr_health</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
