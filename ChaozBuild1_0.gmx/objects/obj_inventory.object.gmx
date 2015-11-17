@@ -249,13 +249,13 @@ global.items[18,3] = "Shoot a spray of projectiles in #close range."
 global.items[18,4] = spr_shotgun_pu
 global.items[18,5] = scr_shotgun
 
-//push
-global.items[19,0] = "Stomp"  
+//Grounder
+global.items[19,0] = "Grounder"  
 global.items[19,1] = 4            
-global.items[19,2] = spr_dash_legs
-global.items[19,3] = ""           
-global.items[19,4] = spr_stomp_pu
-global.items[19,5] = scr_stomp
+global.items[19,2] = spr_grounder_legs
+global.items[19,3] = "Hold your ground! Holding down #space bar lowers your speed but lets you #deal double damage"           
+global.items[19,4] = spr_grounder_pu
+global.items[19,5] = scr_grounder
 //FlameThrower
 global.items[20,0] = "FlameThrower"  
 global.items[20,1] = 1         

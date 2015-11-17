@@ -34,6 +34,8 @@ delay=false
 candash=0
 
 stamina=0
+
+scriptcheck = scr_empty
 </string>
           </argument>
         </arguments>
@@ -84,6 +86,14 @@ stamina=0
 
 
 script_execute(global.inventory[29,5])
+if global.inventory[29,5] != scriptcheck
+    {
+    scriptcheck = global.inventory[29,5]
+    with(obj_player)
+        {
+        phy_linear_damping = originaldamp
+        }
+    }
 if image_index == 1 ||image_index == 4 ||image_index == 7 ||image_index == 10 
     {
     part_particles_create(global.footdust_sys,x+irandom_range(-32,32),y+irandom_range(-32,32),global.footdust_pt,1)
