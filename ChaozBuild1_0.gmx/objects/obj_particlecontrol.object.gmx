@@ -302,6 +302,20 @@ part_type_speed(global.heal_pt,2,3,-0.01,0)
 part_type_alpha2(global.heal_pt,0.7,0)
 part_type_size(global.heal_pt,0.5,1.5,0,0)
 
+//fire path particle
+global.firepath_sys = part_system_create()
+global.firepath_pt = part_type_create()
+
+part_system_depth(global.firepath_sys,4)
+part_type_sprite(global.firepath_pt,spr_firepath_pt,false,true,true)
+part_type_life(global.firepath_pt,40,50)
+part_type_alpha2(global.firepath_pt,0.1,0)
+part_type_size(global.firepath_pt,0.1,1.5,0.01,0)
+
+
+
+
+
 
 
 

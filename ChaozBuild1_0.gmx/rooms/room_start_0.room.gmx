@@ -168,20 +168,13 @@
     <instance objName="obj_blunder_pu" x="2944" y="2368" name="inst_2BF9ADEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_nowalkwall" x="2944" y="2752" name="inst_0A920384" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_nowalkwall" x="3008" y="2752" name="inst_FD1CA6A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_healthorb" x="2688" y="2496" name="inst_16FAFBE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_healthorb" x="2848" y="2496" name="inst_A6F9E4F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_healthorb" x="2816" y="2688" name="inst_93FC343E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_healthorb" x="2816" y="2144" name="inst_74D847B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_healthorb" x="3424" y="2144" name="inst_1C2838FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_healthorb" x="3520" y="3040" name="inst_841C2C93" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_healthorb" x="3424" y="3072" name="inst_647F819A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_healthorb" x="2816" y="3104" name="inst_BA469A03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_healthorb" x="2688" y="2944" name="inst_C82345F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_chest_IRON" x="3488" y="2432" name="inst_4D5FC94E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_chest_GOLD" x="3328" y="2432" name="inst_F03D7055" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_chest" x="3168" y="2432" name="inst_C6161D1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_shadow" x="3136" y="2848" name="inst_9B4E5EBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_grounder_pu" x="2976" y="2912" name="inst_0A5EA1BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_grounder_pu" x="2944" y="2912" name="inst_0A5EA1BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_firewalker_pu" x="3008" y="2912" name="inst_BB5F06F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_mapspritesheet1" x="2496" y="2560" w="64" h="64" xo="0" yo="0" id="10001217" name="inst_2860A76C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

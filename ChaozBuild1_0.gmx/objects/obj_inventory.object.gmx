@@ -293,6 +293,14 @@ global.items[24,3] = ""
 global.items[24,4] = spr_blunder_pu
 global.items[24,5] = scr_blunder
 
+//Fire Walker         
+global.items[25,0] = "Fire Walker"  
+global.items[25,1] = 4        
+global.items[25,2] = spr_firewalker_legs
+global.items[25,3] = "Create a path of fire where you walk that #damages enemies nearby."           
+global.items[25,4] = spr_firewalker_pu
+global.items[25,5] = scr_firewalker
+
 </string>
           </argument>
         </arguments>

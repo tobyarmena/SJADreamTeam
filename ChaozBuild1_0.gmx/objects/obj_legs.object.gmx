@@ -36,6 +36,8 @@ candash=0
 stamina=0
 
 scriptcheck = scr_empty
+
+tick=0
 </string>
           </argument>
         </arguments>

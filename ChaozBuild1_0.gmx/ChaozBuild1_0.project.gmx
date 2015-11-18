@@ -20,6 +20,7 @@
         <sprite>sprites\spr_wind_legs</sprite>
         <sprite>sprites\spr_dash_legs</sprite>
         <sprite>sprites\spr_grounder_legs</sprite>
+        <sprite>sprites\spr_firewalker_legs</sprite>
       </sprites>
       <sprites name="spells">
         <sprite>sprites\spr_magma_arm</sprite>
@@ -107,6 +108,7 @@
       <sprite>sprites\spr_scythe_pu</sprite>
       <sprite>sprites\spr_dash_pu</sprite>
       <sprite>sprites\spr_grounder_pu</sprite>
+      <sprite>sprites\spr_firewalker_pu</sprite>
       <sprite>sprites\spr_wind_pu</sprite>
       <sprite>sprites\spr_stomp_pu</sprite>
       <sprite>sprites\spr_gas_pu</sprite>
@@ -156,6 +158,7 @@
       <sprite>sprites\spr_hive</sprite>
       <sprite>sprites\spr_spadeclown_mask</sprite>
       <sprite>sprites\spr_shadow</sprite>
+      <sprite>sprites\spr_shadow_attack</sprite>
     </sprites>
     <sprites name="Room">
       <sprites name="doors">
@@ -239,6 +242,7 @@
     <sprite>sprites\spr_heal_pt</sprite>
     <sprite>sprites\spr_health</sprite>
     <sprite>sprites\spr_grounder_effect</sprite>
+    <sprite>sprites\spr_firepath_pt</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -324,6 +328,7 @@
         <script>scripts\scr_windwalk.gml</script>
         <script>scripts\scr_dash.gml</script>
         <script>scripts\scr_grounder.gml</script>
+        <script>scripts\scr_firewalker.gml</script>
       </scripts>
       <scripts name="Cores">
         <script>scripts\scr_core_killspree.gml</script>
@@ -451,6 +456,7 @@
       <object>objects\obj_wave_pu</object>
       <object>objects\obj_vortex</object>
       <object>objects\obj_grounder_pu</object>
+      <object>objects\obj_firewalker_pu</object>
       <object>objects\obj_laser_pu</object>
       <object>objects\obj_flamethrower_pu</object>
       <object>objects\obj_boulder_pu</object>
@@ -632,6 +638,7 @@
     <object>objects\obj_nowalkwall</object>
     <object>objects\obj_gameovermenu</object>
     <object>objects\obj_grounder_effect</object>
+    <object>objects\obj_firewalkpath</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_mainmenu</room>

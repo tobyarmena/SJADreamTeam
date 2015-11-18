@@ -48,5 +48,7 @@ p[22] = 2157
 p[23] = 2154
 //Blunder
 p[24] = 1851241247
+//Fire Walker
+p[25] = 5000
 
 return p[item_index]
