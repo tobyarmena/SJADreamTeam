@@ -81,7 +81,7 @@ scr_bloodsplatter()
 
 chance = choose(0,0,0,1)
 if chance == 1
-    instance_create(x,y,obj_spadeclown_unmasked)
+    instance_create(x,y,obj_spadeclown_unmask)
 </string>
           </argument>
         </arguments>
