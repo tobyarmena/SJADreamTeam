@@ -243,16 +243,6 @@ if hit = true
     scr_bloodsplatter_light(damage)
     hit=false
     }
-
-
-    
-
-
-
-    
-  
-
-
 </string>
           </argument>
         </arguments>

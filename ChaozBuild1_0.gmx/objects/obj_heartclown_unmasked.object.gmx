@@ -52,8 +52,8 @@ spd = 7000
 
 
 
-part_type_orientation(global.club_pt,image_angle,image_angle,20,20,false)
-part_particles_create(global.club_sys,x,y,global.club_pt,1)
+part_type_orientation(global.heart_pt,image_angle,image_angle,20,20,false)
+part_particles_create(global.heart_sys,x,y,global.spade_pt,1)
 
 
 </string>

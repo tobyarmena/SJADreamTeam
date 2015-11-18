@@ -180,6 +180,22 @@ part_type_life(global.club_pt,60,60)
 part_type_alpha2(global.club_pt,1,0)
 part_type_size(global.club_pt,1,1,0.04,0.04)
 
+//spade clown
+global.spade_sys = part_system_create();
+global.spade_pt = part_type_create();
+part_type_sprite(global.spade_pt,spr_spadeclown_unmask,false,false,false)
+part_type_life(global.spade_pt,60,60)
+part_type_alpha2(global.spade_pt,1,0)
+part_type_size(global.spade_pt,1,1,0.04,0.04)
+
+//heart clown
+global.heart_sys = part_system_create();
+global.heart_pt = part_type_create();
+part_type_sprite(global.heart_pt,spr_heartclown_unmask,false,false,false)
+part_type_life(global.heart_pt,60,60)
+part_type_alpha2(global.heart_pt,1,0)
+part_type_size(global.heart_pt,1,1,0.04,0.04)
+
 //explosion1
 
 global.explosion1_sys = part_system_create();
