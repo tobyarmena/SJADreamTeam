@@ -208,6 +208,9 @@ with(obj_player)
             <string>image_speed = 0;
 image_index = 6;
 
+phy_position_x = 0;
+phy_position_y = 0;
+
 </string>
           </argument>
         </arguments>
