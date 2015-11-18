@@ -35,12 +35,42 @@ maxdmg = 4*global.scale
 attention = false;
 timer = 1;
 action = 2;
-explode = false;
 attacked = false;
 value=0;
 image_speed = 0;
+alarm [1] = 1;
+loop = 0;
 
 event_inherited()
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (loop &lt; 5)
+    loop += 1;
+
+if (!alarm[1] &amp;&amp; (loop &lt;= 5))
+    alarm[1] = 15;
+    
+
 </string>
           </argument>
         </arguments>
@@ -63,8 +93,7 @@ event_inherited()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-attacked = false;
+            <string>attacked = false;
 </string>
           </argument>
         </arguments>
@@ -90,14 +119,11 @@ attacked = false;
             <string>event_inherited()
 
 //Movement
-if distance_to_object(obj_player) &lt; 128 
+if (loop == 5)
     {
-    scr_follow(obj_player,0,10000);
-    }
-else
-    scr_follow(obj_player,0,5000);
+    scr_follow(obj_player,0,20000);
+}
 
-    
 
 </string>
           </argument>
@@ -145,6 +171,29 @@ else
           <argument>
             <kind>1</kind>
             <string>//
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="par_pro">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>image_speed = 0.2;
 </string>
           </argument>
         </arguments>
@@ -207,7 +256,7 @@ with(obj_player)
             <kind>1</kind>
             <string>image_speed = 0;
 image_index = 6;
-
+instance_destroy();
 </string>
           </argument>
         </arguments>
