@@ -1,3 +1,5 @@
+/*
+
 //resize map
 
 //find left value to cut off
