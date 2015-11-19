@@ -110,7 +110,7 @@ image_yscale -= 0.025
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>part_particles_create_colour(global.magma_sys,phy_collision_x,phy_collision_y,global.magma_pt,make_colour_hsv(irandom_range(0,255),255,255),5)
+            <string>part_particles_create_colour(global.magma_sys,phy_collision_x,phy_collision_y,global.magma_pt,make_colour_hsv(irandom_range(0,255),255,255),5*global.particlelevel)
 instance_destroy();
 
 </string>
@@ -135,7 +135,7 @@ instance_destroy();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>part_particles_create_colour(global.magma_sys,phy_collision_x,phy_collision_y,global.magma_pt,make_colour_hsv(irandom_range(0,255),255,255),5)
+            <string>part_particles_create_colour(global.magma_sys,phy_collision_x,phy_collision_y,global.magma_pt,make_colour_hsv(irandom_range(0,255),255,255),5*global.particlelevel)
 instance_destroy();
 
 </string>
@@ -160,7 +160,7 @@ instance_destroy();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>part_particles_create_colour(global.magma_sys,phy_collision_x,phy_collision_y,global.magma_pt,make_colour_hsv(irandom_range(0,255),255,255),5)
+            <string>part_particles_create_colour(global.magma_sys,phy_collision_x,phy_collision_y,global.magma_pt,make_colour_hsv(irandom_range(0,255),255,255),5*global.particlelevel)
 
 
 
@@ -188,7 +188,7 @@ instance_destroy();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>part_particles_create_colour(global.magma_sys,phy_collision_x,phy_collision_y,global.magma_pt,make_colour_hsv(irandom_range(0,255),255,255),5)
+            <string>part_particles_create_colour(global.magma_sys,phy_collision_x,phy_collision_y,global.magma_pt,make_colour_hsv(irandom_range(0,255),255,255),5*global.particlelevel)
 
 
 

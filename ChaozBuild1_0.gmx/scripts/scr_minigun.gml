@@ -35,5 +35,5 @@ if spd >= 1 && delay = false
         ldy = lengthdir_y(100*global.force,ind.aimdir)
         physics_apply_impulse(x,y,ldx,ldy)
         }
-    part_particles_create(global.minigun2_sys,xx,yy,global.minigun2_pt,30)
+    part_particles_create(global.minigun2_sys,xx,yy,global.minigun2_pt,10*global.particlelevel)
     }

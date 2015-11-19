@@ -96,7 +96,7 @@ physics_apply_force(x, y, shiftx, shifty);
 physics_apply_force(x, y, xx, yy);
 
 
-repeat(10)
+repeat(10*global.particlelevel)
 part_particles_create(global.water2_sys,x+irandom_range(-10,10),y+irandom_range(-10,10),global.water2_pt,1)
 if distance_to_object(obj_player)&gt;3000{instance_destroy();}
 

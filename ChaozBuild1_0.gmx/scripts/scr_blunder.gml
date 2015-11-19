@@ -35,7 +35,7 @@ with(projectile)
     scr_applyimpulse(ind.aimdir + irandom_range(max(-other.accuracy,-45),min(other.accuracy,45)),5000000000*global.force)
     }
 
-part_particles_create_colour(global.magma_sys,xx,yy,global.magma_pt,make_colour_hsv(irandom_range(0,255),255,255),5)
+part_particles_create_colour(global.magma_sys,xx,yy,global.magma_pt,make_colour_hsv(irandom_range(0,255),255,255),5*global.particlelevel)
 }
 if knockback<0{knockback+=0.5}
 

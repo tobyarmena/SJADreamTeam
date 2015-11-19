@@ -32,6 +32,6 @@ with(projectile)
     scr_applyimpulse(ind.aimdir - 10 + k,5000000000*global.force)
     }
 }
-part_particles_create(global.magma_sys,xx,yy,global.magma_pt,30)
+part_particles_create(global.magma_sys,xx,yy,global.magma_pt,5*global.particlelevel)
 }
 if knockback<0{knockback+=0.5}

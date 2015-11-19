@@ -81,7 +81,7 @@ maxdmg = 50
             <kind>1</kind>
             <string>event_inherited()
 //phy_rotation += phy_speed
-part_particles_create(global.magma3_sys,x+irandom_range(-5,5),y+irandom_range(-5,5),global.magma3_pt,10)
+part_particles_create(global.magma3_sys,x+irandom_range(-5,5),y+irandom_range(-5,5),global.magma3_pt,5*global.particlelevel)
 if distance_to_object(obj_player)&gt;3000{instance_destroy();}
 
 </string>
@@ -106,8 +106,8 @@ if distance_to_object(obj_player)&gt;3000{instance_destroy();}
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>part_particles_create(global.magma2_sys,phy_collision_x,phy_collision_y,global.magma2_sys,15)
-part_particles_create(global.magma_sys,phy_collision_x,phy_collision_y,global.magma_pt,30)
+            <string>part_particles_create(global.magma2_sys,phy_collision_x,phy_collision_y,global.magma2_sys,10*global.particlelevel)
+part_particles_create(global.magma_sys,phy_collision_x,phy_collision_y,global.magma_pt,15*global.particlelevel)
 instance_destroy();
 
 </string>
@@ -132,8 +132,8 @@ instance_destroy();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>part_particles_create(global.magma2_sys,phy_collision_x,phy_collision_y,global.magma2_sys,15)
-part_particles_create(global.magma_sys,phy_collision_x,phy_collision_y,global.magma_pt,30)
+            <string>part_particles_create(global.magma2_sys,phy_collision_x,phy_collision_y,global.magma2_sys,10*global.particlelevel)
+part_particles_create(global.magma_sys,phy_collision_x,phy_collision_y,global.magma_pt,15*global.particlelevel)
 instance_destroy();
 
 </string>
@@ -158,8 +158,8 @@ instance_destroy();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>part_particles_create(global.magma2_sys,phy_collision_x,phy_collision_y,global.magma2_sys,15)
-part_particles_create(global.magma_sys,phy_collision_x,phy_collision_y,global.magma_pt,30)
+            <string>part_particles_create(global.magma2_sys,phy_collision_x,phy_collision_y,global.magma2_sys,10*global.particlelevel)
+part_particles_create(global.magma_sys,phy_collision_x,phy_collision_y,global.magma_pt,15*global.particlelevel)
 
 
 
@@ -187,8 +187,8 @@ instance_destroy();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>part_particles_create(global.magma2_sys,phy_collision_x,phy_collision_y,global.magma2_sys,15)
-part_particles_create(global.magma_sys,phy_collision_x,phy_collision_y,global.magma_pt,30)
+            <string>part_particles_create(global.magma2_sys,phy_collision_x,phy_collision_y,global.magma2_sys,10*global.particlelevel)
+part_particles_create(global.magma_sys,phy_collision_x,phy_collision_y,global.magma_pt,15*global.particlelevel)
 
 
 

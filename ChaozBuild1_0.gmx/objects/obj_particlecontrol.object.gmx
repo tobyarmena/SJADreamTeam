@@ -28,6 +28,9 @@
             <string>part_type_destroy(all);
 part_system_destroy(all);
 
+minfps = 60
+alarm[0] = 300
+
 //magma
 
 global.magma_sys = part_system_create();
@@ -261,7 +264,7 @@ part_system_depth(global.blood_sys,100);
 //part_type_sprite(global.blood_pt,spr_blood_pt,false,true,true)
 part_type_alpha3(global.blood_pt,0.9,0.9,0)
 part_type_life(global.blood_pt,2000,2000)
-//part_type_size(global.blood_pt,0.1,2,0,0)
+//part_type_size(global.blood_pt,0.2,2,0,0)
 part_type_orientation(global.blood_pt,0,360,0,0,false)
 part_type_direction(global.blood_pt,0,360,0,0)
 //part_type_speed(global.blood_pt,5,1,-0.5,0)
@@ -337,6 +340,85 @@ part_type_size(global.firepath_pt,0.1,1.5,0.01,0)
 
 
 
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>minfps = 60
+alarm[0] = 300
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if fps &lt;50
+    {
+    part_system_clear(global.blood_sys);
+    part_system_depth(global.blood_sys,100);
+    }
+    
+minfps = min(fps,minfps)
+    
+if minfps &gt;55
+    {
+    global.particlelevel = 1
+    }
+else if minfps &gt; 50
+    {
+    global.particlelevel = 0.9
+    }
+else if minfps &gt; 45
+    {
+    global.particlelevel = 0.8
+    }
+else if minfps &gt; 40
+    {
+    global.particlelevel = 0.7
+    }
+else if minfps &gt; 35
+    {
+    global.particlelevel = 0.6
+    }
+else 
+    {
+    global.particlelevel = 0.5
+    }
 
 </string>
           </argument>

@@ -24,6 +24,6 @@ with(projectile)
     physics_apply_impulse(x,y,ldx,ldy)
     }
 
-part_particles_create(global.magma_sys,xx,yy,global.magma_pt,30)
+part_particles_create(global.magma_sys,xx,yy,global.magma_pt,30*global.particlelevel)
 }
 if knockback<0{knockback+=1}

@@ -36,7 +36,7 @@ part_emitter_region(global.firepath_sys,
 if distance_to_object(obj_firewalkpath)&lt;5
     alarm[0]=1
     
-part_emitter_stream(global.firepath_sys, firepath_em, global.firepath_pt, 1);
+part_emitter_stream(global.firepath_sys, firepath_em, global.firepath_pt, -3*1/max(global.particlelevel,0.1));
     
 
 </string>

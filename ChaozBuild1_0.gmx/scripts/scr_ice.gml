@@ -43,5 +43,5 @@ if mouse_check_button(button)&&delay=false
         ldy = lengthdir_y(1000*global.force,ind.aimdir-5)
         physics_apply_impulse(x,y,ldx,ldy)
         }
-    part_particles_create(global.ice2_sys,xx,yy,global.ice2_pt,30)
+    part_particles_create(global.ice2_sys,xx,yy,global.ice2_pt,30*global.particlelevel)
     }
