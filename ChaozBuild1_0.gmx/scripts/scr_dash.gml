@@ -1,7 +1,7 @@
 if keyboard_check_pressed(vk_space) && delay = false
     {
     delay = true
-    alarm[0]=40
+    alarm[0]=25
     with(obj_player)
         {
         var xx = lengthdir_x(250000,dir)

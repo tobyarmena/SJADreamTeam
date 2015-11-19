@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>event_inherited()
 path = path_add();
-sethp = 500*global.scale
+sethp = 700*global.scale
 mindmg = 5*global.scale;
 
 maxdmg = mindmg + 3;
@@ -343,7 +343,7 @@ with(obj_player)
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>56,56</point>
-    <point>32,32</point>
+    <point>76,72</point>
+    <point>48,32</point>
   </PhysicsShapePoints>
 </object>

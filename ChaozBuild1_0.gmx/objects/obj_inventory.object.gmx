@@ -301,6 +301,24 @@ global.items[25,3] = "Create a path of fire where you walk that #damages enemies
 global.items[25,4] = spr_firewalker_pu
 global.items[25,5] = scr_firewalker
 
+//Agility+        
+global.items[26,0] = "Agility+"  
+global.items[26,1] = 4        
+global.items[26,2] = spr_dashplus_legs
+global.items[26,3] = "Your legs are more agile, press space #to perform a long dash."           
+global.items[26,4] = spr_dash_plus_pu
+global.items[26,5] = scr_dash_plus
+
+//Ice Walker         
+global.items[27,0] = "Ice Walker"  
+global.items[27,1] = 4        
+global.items[27,2] = spr_dashplus_legs
+global.items[27,3] = "Create a path of ice where you walk that #damages and slows enemies nearby."           
+global.items[27,4] = spr_icewalker
+global.items[27,5] = scr_icewalker
+
+
+
 </string>
           </argument>
         </arguments>

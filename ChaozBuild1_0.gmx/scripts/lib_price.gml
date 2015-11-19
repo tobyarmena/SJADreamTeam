@@ -50,5 +50,9 @@ p[23] = 2154
 p[24] = 1851241247
 //Fire Walker
 p[25] = 5000
+//Dash Plus Legs
+p[26] = 5000
+//Ice Walker
+p[27] = 5000
 
 return p[item_index]
