@@ -28,6 +28,7 @@
             <string>part_type_destroy(all);
 part_system_destroy(all);
 
+
 minfps = 60
 alarm[0] = 300
 
@@ -403,32 +404,38 @@ alarm[0] = 300
     part_system_depth(global.blood_sys,100);
     }
     
-minfps = min(fps,minfps)
+if global.particlesetting == 2
+    {
+    minfps = min(fps,minfps)
+        
+    if minfps &gt;55
+        {
+        global.particlelevel = 1
+        }
+    else if minfps &gt; 50
+        {
+        global.particlelevel = 0.9
+        }
+    else if minfps &gt; 45
+        {
+        global.particlelevel = 0.8
+        }
+    else if minfps &gt; 40
+        {
+        global.particlelevel = 0.7
+        }
+    else if minfps &gt; 35
+        {
+        global.particlelevel = 0.6
+        }
+    else 
+        {
+        global.particlelevel = 0.5
+        }
+    }
     
-if minfps &gt;55
-    {
-    global.particlelevel = 1
-    }
-else if minfps &gt; 50
-    {
-    global.particlelevel = 0.9
-    }
-else if minfps &gt; 45
-    {
-    global.particlelevel = 0.8
-    }
-else if minfps &gt; 40
-    {
-    global.particlelevel = 0.7
-    }
-else if minfps &gt; 35
-    {
-    global.particlelevel = 0.6
-    }
-else 
-    {
-    global.particlelevel = 0.5
-    }
+part_type_life(global.blood_pt,1000*global.particlelevel,1000*global.particlelevel)
+part_type_life(global.blood2_pt,1000*global.particlelevel,1000*global.particlelevel)
 
 </string>
           </argument>

@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>
 str = "Particle Effects: "
+level = global.particlelevel
 
 event_inherited()
 </string>
@@ -55,10 +56,15 @@ event_inherited()
 
 if action == true
     {
-    if global.particlelevel == 1
-        global.particlelevel = 0
+    if global.particlesetting == 1
+       global.particlesetting = 2
+    else if global.particlesetting == 2
+       global.particlesetting = 0
     else
-        global.particlelevel += 0.1
+       global.particlesetting += 0.1
+        
+    if global.particlesetting != 2
+        global.particlelevel = global.particlesetting
     }
 if global.paused == false
     {
@@ -86,7 +92,10 @@ if global.paused == false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>str2 = string(round(global.particlelevel*100))+"%"
+            <string>if global.particlesetting &lt;= 1
+    str2 = string(round(global.particlelevel*100))+"%"
+else 
+    str2 = "Auto Adjust"
 
 draw_set_color(c_gray)
 draw_set_alpha(alpha)

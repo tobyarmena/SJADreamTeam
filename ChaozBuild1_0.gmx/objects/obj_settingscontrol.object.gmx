@@ -39,6 +39,7 @@ global.height = 1080
 global.control = 1
 
 //visual settings
+global.particlesetting = 2
 global.particlelevel = 1
 </string>
           </argument>

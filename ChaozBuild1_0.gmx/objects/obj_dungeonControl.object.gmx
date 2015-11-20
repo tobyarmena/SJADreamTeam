@@ -619,6 +619,7 @@ if instance_number(obj_randomchestspawn)&gt;=chestnumber
           <argument>
             <kind>1</kind>
             <string>draw_text(32,32,fps)
+draw_text(32,128,global.particlelevel)
 </string>
           </argument>
         </arguments>

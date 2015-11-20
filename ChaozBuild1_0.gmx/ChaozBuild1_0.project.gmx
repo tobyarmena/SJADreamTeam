@@ -247,7 +247,9 @@
     <sprite>sprites\spr_grounder_effect</sprite>
     <sprite>sprites\spr_firepath_pt</sprite>
     <sprite>sprites\spr_icepath_pt</sprite>
-    <sprite>sprites\sprite211</sprite>
+    <sprite>sprites\spr_heartclowncorpse</sprite>
+    <sprite>sprites\spr_diamondclowncorpse</sprite>
+    <sprite>sprites\spr_spadeclowncorpse</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
