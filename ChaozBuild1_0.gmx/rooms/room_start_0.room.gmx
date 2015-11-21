@@ -172,11 +172,11 @@
     <instance objName="obj_chest_IRON" x="3488" y="2432" name="inst_4D5FC94E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_chest_GOLD" x="3328" y="2432" name="inst_F03D7055" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_chest" x="3168" y="2432" name="inst_C6161D1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_shadow" x="3136" y="2848" name="inst_9B4E5EBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grounder_pu" x="2944" y="2912" name="inst_0A5EA1BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_firewalker_pu" x="3008" y="2912" name="inst_BB5F06F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dashplus_pu" x="2752" y="2912" name="inst_E752FA9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_icewalker_pu" x="3072" y="2912" name="inst_B693C39A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_divide_large" x="2784" y="2304" name="inst_B066F9A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_mapspritesheet1" x="2496" y="2560" w="64" h="64" xo="0" yo="0" id="10001217" name="inst_2860A76C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -258,6 +258,9 @@
     <sprite>sprites\spr_heartclowncorpse</sprite>
     <sprite>sprites\spr_diamondclowncorpse</sprite>
     <sprite>sprites\spr_spadeclowncorpse</sprite>
+    <sprite>sprites\spr_divide_big</sprite>
+    <sprite>sprites\spr_divide_med</sprite>
+    <sprite>sprites\spr_divide_small</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -660,6 +663,7 @@
     <object>objects\obj_grounder_effect</object>
     <object>objects\obj_firewalkpath</object>
     <object>objects\obj_icewalkerpath</object>
+    <object>objects\obj_divide_large</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_mainmenu</room>
