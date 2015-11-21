@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_blend = c_green
+            <string>//image_blend = c_green
 </string>
           </argument>
         </arguments>
@@ -84,6 +84,23 @@ else
 window_set_cursor(cr_default);
 instance_deactivate_object(obj_crosshair)
 }
+
+if global.cursorcolor == 1
+    sprite_index = spr_mouse_red
+else if global.cursorcolor == 2
+    sprite_index = spr_mouse_orange
+else if global.cursorcolor == 3
+    sprite_index = spr_mouse_yellow
+else if global.cursorcolor == 4
+    sprite_index = spr_mouse_green
+else if global.cursorcolor == 5
+    sprite_index = spr_mouse_blue
+else if global.cursorcolor == 6
+    sprite_index = spr_mouse_pink
+else if global.cursorcolor == 7
+    sprite_index = spr_mouse_purple
+else if global.cursorcolor == 8
+    sprite_index = spr_mouse_yellow
 </string>
           </argument>
         </arguments>

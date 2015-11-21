@@ -269,7 +269,11 @@
     <background>background\background3</background>
     <background>background\background4</background>
     <background>background\Cover</background>
+    <background>background\bg_morefloors</background>
     <background>background\bg_mapspritesheet1</background>
+    <background>background\bg_mapspritesheet2</background>
+    <background>background\bg_mapspritesheet3</background>
+    <background>background\bg_mapspritesheet4</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -587,6 +591,7 @@
         <object>objects\obj_parent_checkbox</object>
         <object>objects\obj_resume</object>
         <object>objects\obj_particlelevel</object>
+        <object>objects\obj_cursorcolor</object>
         <object>objects\obj_exit</object>
       </objects>
       <objects name="Resolutions">

@@ -47,6 +47,7 @@ if global.menupage == "settings"
         instance_create(view_xview+view_wview/2-128,view_yview+view_hview-256-384,obj_r1280x960)
         instance_create(view_xview+view_wview/2-128,view_yview+view_hview-256,obj_shiftcontrol)
         instance_create(view_xview+view_wview/2+500,view_yview+view_hview-256,obj_particlelevel)
+        instance_create(view_xview+view_wview/2+500,view_yview+view_hview-256-128,obj_cursorcolor)
         //instance_create(view_xview+view_wview/2-128,view_yview+view_hview-256-448,obj_r1024x768)
         instance_create(view_xview+view_wview/2-128,view_yview+view_hview-256-512,obj_fullscreen)
         }
