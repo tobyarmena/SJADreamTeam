@@ -196,6 +196,14 @@
     <sprite>sprites\spr_empty</sprite>
     <sprite>sprites\spr_cursor</sprite>
     <sprite>sprites\spr_mouse</sprite>
+    <sprite>sprites\spr_mouse_red</sprite>
+    <sprite>sprites\spr_mouse_orange</sprite>
+    <sprite>sprites\spr_mouse_yellow</sprite>
+    <sprite>sprites\spr_mouse_green</sprite>
+    <sprite>sprites\spr_mouse_blue</sprite>
+    <sprite>sprites\spr_mouse_pink</sprite>
+    <sprite>sprites\spr_mouse_purple</sprite>
+    <sprite>sprites\spr_mouse_turquoise</sprite>
     <sprite>sprites\spr_randchestspawn</sprite>
     <sprite>sprites\spr_menu</sprite>
     <sprite>sprites\spr_resume</sprite>
