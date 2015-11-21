@@ -116,6 +116,8 @@
       <sprite>sprites\spr_stomp_pu</sprite>
       <sprite>sprites\spr_gas_pu</sprite>
       <sprite>sprites\spr_legslot</sprite>
+      <sprite>sprites\spr_killspree_core_pu</sprite>
+      <sprite>sprites\spr_electric_core_pu</sprite>
     </sprites>
     <sprites name="particles">
       <sprite>sprites\spr_magma_part</sprite>
@@ -228,7 +230,6 @@
     <sprite>sprites\spr_healthorb</sprite>
     <sprite>sprites\sprite117</sprite>
     <sprite>sprites\spr_water_pt</sprite>
-    <sprite>sprites\spr_killspree_core_pu</sprite>
     <sprite>sprites\spr_weaponstore</sprite>
     <sprite>sprites\damaged</sprite>
     <sprite>sprites\spr_laser</sprite>
@@ -252,6 +253,7 @@
     <sprite>sprites\spr_dollcorpse2</sprite>
     <sprite>sprites\spr_floorhole</sprite>
     <sprite>sprites\spr_skullcorpse</sprite>
+    <sprite>sprites\spr_grimcorpse</sprite>
     <sprite>sprites\spr_heal_pt</sprite>
     <sprite>sprites\spr_health</sprite>
     <sprite>sprites\spr_grounder_effect</sprite>
@@ -263,6 +265,7 @@
     <sprite>sprites\spr_divide_big</sprite>
     <sprite>sprites\spr_divide_med</sprite>
     <sprite>sprites\spr_divide_small</sprite>
+    <sprite>sprites\sprite229</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -396,6 +399,8 @@
     <script>scripts\scr_bloodsplatter_light.gml</script>
     <script>scripts\scr_minimap.gml</script>
     <script>scripts\scr_angleDiff2.gml</script>
+    <script>scripts\scr_resetgrid.gml</script>
+    <script>scripts\scr_core_electric.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_harrington</font>
@@ -491,6 +496,7 @@
       <object>objects\obj_needle_pu</object>
       <object>objects\obj_blunder_pu</object>
       <object>objects\obj_killspree_pu</object>
+      <object>objects\obj_electric_pu</object>
       <object>objects\obj_skull_marked_pu</object>
       <object>objects\obj_skull_eye_pu</object>
       <object>objects\obj_skull_hell_pu</object>
@@ -567,6 +573,7 @@
         <object>objects\obj_clubclown_unmasked</object>
       </objects>
       <object>objects\obj_doll</object>
+      <object>objects\obj_armourstand</object>
       <object>objects\obj_doll2</object>
       <object>objects\obj_grimreaper</object>
       <object>objects\obj_enemy2</object>
@@ -582,6 +589,7 @@
       <object>objects\obj_hive</object>
       <object>objects\obj_centipart</object>
       <object>objects\obj_centihead</object>
+      <object>objects\obj_armourstand_idle</object>
     </objects>
     <objects name="GUI">
       <objects name="Buttons">

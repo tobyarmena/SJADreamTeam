@@ -310,7 +310,6 @@ if hit = true
 lives -= scr_minmaxdmg()
 attacked = true;
 alarm[0] = 90;
-effect_create_above(ef_ring,phy_collision_x,phy_collision_y,1,c_yellow)
 with(obj_player)
     {
     ldx = lengthdir_x(900,point_direction(other.x,other.y,x,y))

@@ -54,5 +54,7 @@ p[25] = 5000
 p[26] = 5000
 //Ice Walker
 p[27] = 5000
+//electric core
+p[28] = 100000
 
 return p[item_index]

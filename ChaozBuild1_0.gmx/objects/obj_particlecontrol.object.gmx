@@ -408,23 +408,23 @@ if global.particlesetting == 2
     {
     minfps = min(fps,minfps)
         
-    if minfps &gt;55
+    if minfps &gt;= 60
         {
         global.particlelevel = 1
         }
-    else if minfps &gt; 50
+    else if minfps &gt; 58
         {
         global.particlelevel = 0.9
         }
-    else if minfps &gt; 45
+    else if minfps &gt; 55
         {
         global.particlelevel = 0.8
         }
-    else if minfps &gt; 40
+    else if minfps &gt; 52
         {
         global.particlelevel = 0.7
         }
-    else if minfps &gt; 35
+    else if minfps &gt; 49
         {
         global.particlelevel = 0.6
         }

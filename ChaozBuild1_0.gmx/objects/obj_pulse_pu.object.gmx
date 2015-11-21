@@ -3,7 +3,7 @@
   <spriteName>spr_pulse_pu</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-2</depth>
+  <depth>1</depth>
   <persistent>0</persistent>
   <parentName>obj_parent_select</parentName>
   <maskName>&lt;undefined&gt;</maskName>

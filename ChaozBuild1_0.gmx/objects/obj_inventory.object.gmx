@@ -317,6 +317,13 @@ global.items[27,3] = "Create a path of ice where you walk that #damages and slow
 global.items[27,4] = spr_icewalker
 global.items[27,5] = scr_icewalker
 
+//Electric Core
+global.items[28,0] = "Static Aura"  
+global.items[28,1] = 3             
+global.items[28,2] = c_aqua
+global.items[28,3] = "You give off an electrical aura, #dealing damage to enemies close by."           
+global.items[28,4] = spr_electric_core_pu
+global.items[28,5] = scr_core_electric
 
 
 </string>
