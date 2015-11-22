@@ -124,7 +124,8 @@ if (loop == 7)
     scr_follow(obj_player,0,20000);
 }
 
-
+if !instance_exists(obj_shadow)
+    instance_destroy();
 </string>
           </argument>
         </arguments>
