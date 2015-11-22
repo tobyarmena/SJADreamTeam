@@ -3,7 +3,7 @@
   <spriteName>spr_clubclown_mask</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-5</depth>
+  <depth>-7</depth>
   <persistent>0</persistent>
   <parentName>par_enemies</parentName>
   <maskName>&lt;undefined&gt;</maskName>

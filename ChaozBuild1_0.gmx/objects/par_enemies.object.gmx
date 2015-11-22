@@ -32,6 +32,7 @@ canhit=true
 ltick = 5
 follow = true;
 hit = false
+direction = -phy_rotation
 
 imagep=0
 </string>
