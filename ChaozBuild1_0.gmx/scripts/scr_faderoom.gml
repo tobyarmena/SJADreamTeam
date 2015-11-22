@@ -17,7 +17,7 @@ if(alpha==1)
     //choose next room
     if nextRoom == 3
         {
-        chooseall = choose(3,4,5,6,7,8,10,11)
+        chooseall = choose(26)
         scr_doorcheck1()
         
         //////////////////ALL DOORS CAN OPEN
