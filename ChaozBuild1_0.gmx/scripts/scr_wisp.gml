@@ -30,8 +30,8 @@ if mouse_check_button(button)&& delay=false
         {
         phy_bullet = true;
         direction = ind.aimdir;
-        ldx = lengthdir_x(1000,ind.aimdir+90)
-        ldy = lengthdir_y(1000,ind.aimdir+90)
+        ldx = lengthdir_x(1000,ind.aimdir+45)
+        ldy = lengthdir_y(1000,ind.aimdir+45)
         physics_apply_impulse(x,y,ldx,ldy)
         defaultdir=ind.aimdir
         }
@@ -40,8 +40,8 @@ if mouse_check_button(button)&& delay=false
         {
         phy_bullet = true;
         direction = ind.aimdir;
-        ldx = lengthdir_x(1000,ind.aimdir-90)
-        ldy = lengthdir_y(1000,ind.aimdir-90)
+        ldx = lengthdir_x(1000,ind.aimdir-45)
+        ldy = lengthdir_y(1000,ind.aimdir-45)
         physics_apply_impulse(x,y,ldx,ldy)
         defaultdir=ind.aimdir
         }
