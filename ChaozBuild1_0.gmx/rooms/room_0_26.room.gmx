@@ -165,10 +165,10 @@
     <instance objName="obj_doorRight2" x="3360" y="1216" name="inst_7243E999" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_doorLeft2" x="1632" y="1216" name="inst_8257E9C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_doorLeft1" x="1632" y="1216" name="inst_FDFF7CC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_doorDown1" x="2496" y="480" name="inst_DE82F357" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_doorDown2" x="2496" y="480" name="inst_CCEC8A39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_doorDown2" x="2496" y="2080" name="inst_87EEC9BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_doorUp1" x="2496" y="2080" name="inst_AE8282CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_doorDown1" x="2496" y="2080" name="inst_DE82F357" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_doorDown2" x="2496" y="2080" name="inst_CCEC8A39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_doorDown2" x="2496" y="480" name="inst_87EEC9BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_doorUp1" x="2496" y="480" name="inst_AE8282CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_behindDoorWall" x="2496" y="2208" name="inst_A23CEB01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_behindDoorWall" x="2560" y="2208" name="inst_694D1658" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_behindDoorWall" x="2496" y="2272" name="inst_D8701DE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -856,7 +856,7 @@
     <tile bgName="bg_mapspritesheet1" x="2656" y="1120" w="64" h="64" xo="64" yo="64" id="10012401" name="inst_ADA0A08A" depth="0" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_mapspritesheet1" x="2400" y="1120" w="64" h="64" xo="64" yo="64" id="10012402" name="inst_3E0DC641" depth="0" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
-  <PhysicsWorld>0</PhysicsWorld>
+  <PhysicsWorld>-1</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>
   <PhysicsWorldRight>1024</PhysicsWorldRight>
