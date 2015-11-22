@@ -64,10 +64,10 @@ event_inherited()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (loop &lt; 5)
+            <string>if (loop &lt; 8)
     loop += 1;
 
-if (!alarm[1] &amp;&amp; (loop &lt;= 5))
+if (!alarm[1] &amp;&amp; (loop &lt;= 7))
     alarm[1] = 15;
     
 
@@ -119,7 +119,7 @@ if (!alarm[1] &amp;&amp; (loop &lt;= 5))
             <string>event_inherited()
 
 //Movement
-if (loop == 5)
+if (loop == 7)
     {
     scr_follow(obj_player,0,20000);
 }
@@ -216,7 +216,7 @@ if (loop == 5)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0.2;
+            <string>image_speed = 0.4;
 
 if attacked = false
 {

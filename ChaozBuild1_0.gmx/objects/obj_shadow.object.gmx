@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>path = path_add();
-sethp = 50*global.scale
+sethp = 2000*global.scale
 hp= sethp;
 hpcheck = sethp;
 hpmax = sethp;
@@ -39,9 +39,33 @@ explode = false;
 attacked = false;
 value=0;
 clone = true;
+shadow = false;
 image_speed = 0;
 
 event_inherited()
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>shadow = true;
 </string>
           </argument>
         </arguments>
@@ -87,17 +111,17 @@ event_inherited()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (instance_number(obj_shadow_clone) = 0)
+            <string>if (instance_number(obj_shadow_clone) == 0)
     {
     clone = false;
-    instance_create(obj_shadow_clone , 1312, 928);
-    instance_create(obj_shadow_clone ,1920, 928);
-    instance_create(obj_shadow_clone , 1184, 1088);
-    instance_create(obj_shadow_clone ,2144, 1088);
-    instance_create(obj_shadow_clone , 1206, 1440);
-    instance_create(obj_shadow_clone ,2144, 1440);
-    instance_create(obj_shadow_clone , 1472, 1696);
-    instance_create(obj_shadow_clone , 1920, 1696);
+    instance_create(1312 , 928, obj_shadow_clone);
+    instance_create(1920, 928, obj_shadow_clone);
+    instance_create(1184, 1088, obj_shadow_clone);
+    instance_create(2144, 1088, obj_shadow_clone);
+    instance_create(1206, 1440,obj_shadow_clone);
+    instance_create(2144, 1440, obj_shadow_clone);
+    instance_create(1472, 1696, obj_shadow_clone);
+    instance_create(1920, 1696,obj_shadow_clone);
     }
 
 
@@ -152,19 +176,19 @@ attacked = false;
 //Movement
 if distance_to_object(obj_player) &lt; 128 
     {
-    scr_follow(obj_player,0,10000);
+    scr_follow(obj_player,0,15000);
     }
 else
-    scr_follow(obj_player,0,5000);
+    scr_follow(obj_player,0,9000);
     
-if  ((hp &lt;=  hpmax/2) &amp;&amp; (clone == true))
-    {
-    alarm [1] = 30;
-}
-if  ((hp &lt;=  hpmax/2) &amp;&amp; (clone == false))
-    {
-    alarm [2] = 200;   
-}
+
+if ((hp &lt;=  hpmax/2) &amp;&amp; (clone == true))
+   if !alarm[1]
+       alarm [1] = 30;
+if ((hp &lt;=  hpmax/2) &amp;&amp; (clone == false))
+   if !alarm[2]
+       alarm [2] = 120;
+
 
     
 
@@ -214,6 +238,34 @@ if  ((hp &lt;=  hpmax/2) &amp;&amp; (clone == false))
           <argument>
             <kind>1</kind>
             <string>//
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="par_pro">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if instance_number(obj_shadow_clone) &lt; 0
+    {
+    with (obj_shadow_clone){
+        instance_destroy();
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -274,12 +326,17 @@ with(obj_player)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0;
-image_index = 6;
-
-phy_position_x = irandom_range(1280,2080);
-phy_position_y = irandom_range(860,1760);
-
+            <string>if (shadow == true){
+    shadow = false;
+    image_speed = 0;
+    image_index = 6;
+}
+if(shadow == false){
+    phy_position_x = irandom_range(1280,2080);
+    phy_position_y = irandom_range(860,1760);
+    image_index = 0
+    alarm[3] = 20;
+}
 </string>
           </argument>
         </arguments>
