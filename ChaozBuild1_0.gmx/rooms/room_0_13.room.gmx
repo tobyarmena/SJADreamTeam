@@ -195,6 +195,8 @@
     <instance objName="obj_enemyspawn1" x="3520" y="1664" name="inst_99D63C43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemyspawn1" x="3776" y="2112" name="inst_FDEE3321" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemyspawn1" x="2688" y="1792" name="inst_D65C6E2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_surface1" x="1728" y="1344" name="inst_E64F57C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_surface2" x="4224" y="2688" name="inst_B720D8E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_mapspritesheet1" x="1984" y="1472" w="64" h="64" xo="0" yo="0" id="10002699" name="inst_0E79B6A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

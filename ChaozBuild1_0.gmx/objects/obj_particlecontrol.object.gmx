@@ -262,21 +262,18 @@ part_type_speed(global.water2_pt,5,6,0,0)
 global.blood_sys = part_system_create();
 global.blood_pt = part_type_create();
 part_system_depth(global.blood_sys,100);
-//part_type_sprite(global.blood_pt,spr_blood_pt,false,true,true)
-part_type_alpha3(global.blood_pt,0.9,0.9,0)
-part_type_life(global.blood_pt,1000,1000)
-//part_type_size(global.blood_pt,0.2,2,0,0)
+part_type_alpha3(global.blood_pt,1,1,1)
+part_type_life(global.blood_pt,60,60)
 part_type_orientation(global.blood_pt,0,360,0,0,false)
 part_type_direction(global.blood_pt,0,360,0,0)
-//part_type_speed(global.blood_pt,5,1,-0.5,0)
 
 //blood particle
 global.blood2_sys = part_system_create();
 global.blood2_pt = part_type_create();
 //part_system_depth(global.blood2_sys,-10000);
 part_type_sprite(global.blood2_pt,spr_blood_pt,false,true,true)
-part_type_alpha3(global.blood2_pt,0.9,0.9,0)
-part_type_life(global.blood2_pt,1000,1000)
+part_type_alpha3(global.blood2_pt,1,1,1)
+part_type_life(global.blood2_pt,60,60)
 part_type_size(global.blood2_pt,0.1,0.4,0,0)
 part_type_orientation(global.blood2_pt,0,360,0,0,false)
 part_type_direction(global.blood2_pt,0,360,0,0)
@@ -434,8 +431,11 @@ if global.particlesetting == 2
         }
     }
     
-part_type_life(global.blood_pt,1000*global.particlelevel,1000*global.particlelevel)
-part_type_life(global.blood2_pt,1000*global.particlelevel,1000*global.particlelevel)
+//part_type_life(global.blood_pt,1000*global.particlelevel,1000*global.particlelevel)
+//part_type_life(global.blood2_pt,1000*global.particlelevel,1000*global.particlelevel)
+
+
+
 
 </string>
           </argument>
@@ -495,6 +495,40 @@ part_type_direction(global.blood_pt,0,360,0,0)
             <kind>1</kind>
             <string>part_system_destroy(all);
 with(all)instance_destroy();
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//drawblood
+if keyboard_check_pressed(ord('K'))
+{
+if surface_exists(global.decalsurface)
+    {
+    //show_message("yeah")
+    surface_set_target(global.decalsurface);
+    part_system_drawit(global.blood_sys);
+    part_system_drawit(global.magma_sys);
+    surface_reset_target();
+    }
+}
 </string>
           </argument>
         </arguments>

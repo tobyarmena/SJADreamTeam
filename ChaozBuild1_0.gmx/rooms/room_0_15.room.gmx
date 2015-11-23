@@ -292,6 +292,8 @@
     <instance objName="obj_nowalkwall" x="2368" y="3328" name="inst_F7B71ABB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_nowalkwall" x="2304" y="3264" name="inst_71353D8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_nowalkwall" x="2304" y="3328" name="inst_064EBE9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_surface1" x="1536" y="1152" name="inst_5E62CADD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_surface2" x="3456" y="3584" name="inst_BECD3818" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_mapspritesheet1" x="2752" y="1280" w="64" h="64" xo="0" yo="0" id="10002657" name="inst_1F8D4EC0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

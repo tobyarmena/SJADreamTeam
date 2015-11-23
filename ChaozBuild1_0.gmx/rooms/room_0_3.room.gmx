@@ -334,6 +334,8 @@
     <instance objName="obj_randomchestspawn" x="4288" y="2816" name="inst_53F8A3C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_doorRight" x="5248" y="2240" name="inst_0A5CCEE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawnpoint1" x="4160" y="1664" name="inst_EB8A1C23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_surface1" x="3328" y="1280" name="inst_9155C58B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_surface2" x="5376" y="3328" name="inst_64E54AFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_mapspritesheet1" x="4544" y="1472" w="64" h="64" xo="0" yo="0" id="10000592" name="inst_3E3C0228" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -681,6 +681,8 @@
     <object>objects\obj_firewalkpath</object>
     <object>objects\obj_icewalkerpath</object>
     <object>objects\obj_divide_large</object>
+    <object>objects\obj_surface1</object>
+    <object>objects\obj_surface2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_mainmenu</room>
